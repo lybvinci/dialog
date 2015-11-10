@@ -11,5 +11,11 @@
         android:text="出现对话框"
         android:onClick="showDialog"
         android:layout_centerInParent="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="出现等待框"
+        android:onClick="showWaitDialog"
+        android:layout_centerHorizontal="true"/>
 
 </RelativeLayout>

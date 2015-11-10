@@ -10,8 +10,24 @@
         android:layout_height="wrap_content"
         android:text="我是文本框"/>
 
-    <ProgressBar
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"/>
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="确定"
+            android:id="@+id/confirm"
+            android:layout_gravity="left" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="取消"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="right"
+            />
+    </LinearLayout>
+
 </LinearLayout>
